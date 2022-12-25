@@ -1,0 +1,289 @@
+Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans= 
+1) Python is easy to use: It is simple with an easily readable syntax and that makes it well-loved by both seasoned developers and experimental students. 
+The simplicity of Python betokens that developers can fixate on genuinely solving the Machine Learning quandary rather than spend all their time (and energy)
+understanding just the technical nuances of the language.
+
+2) Python runs on any platform: Not only is Python profoundly utilizer-amicable, but it also runs everywhere. 
+It runs on Windows, Unix, Linux, MacOS, and 21 different platforms including z/0s, Solaris, and VMS.
+
+3) Extensive support libraries: It provides large standard libraries that include the areas like string operations, Internet, web accommodation implements, 
+operating system interfaces, and protocols. 
+Most of the highly used programming tasks are already scripted into it that constrains the length of the codes to be inscribed in Python.
+
+4)Python is accessible: For newcomers and beginners, Python is incredibly easy to learn and use. 
+In fact, it’s one of the most accessible programming languages available. 
+Part of the reason is the simplified syntax with an emphasis on natural language.
+But it’s also because you can write Python code and execute it much faster. 
+Whatever the case, it’s a great language for beginners, so it’s where a lot of young developers are getting their start. 
+More importantly, experienced developers aren’t left by the wayside, as there’s plenty to do.
+
+5) Incredible Artificial Intelligence and Machine Learning support: Python is the number one choice when it comes to rapidly develop and demandable technologies 
+like Artificial Intelligence and Machine Learning. 
+Python libraries and packages are no less than a wonder as it withal contains code packages dedicated to programming premium high-level industry-concrete software with
+astute machine learning capabilities. 
+This is a massive integrated advantage for developers who are disposed to grab opportunities to power next-generation, automated systems utilizing deep learning 
+frameworks, and artificial intelligence. Moreover, due to its interoperability, both Python and non-Python developers (unfamiliar with Python ecosystem) should equally 
+leverage deep learning frameworks like TensorFlow and Keras library as suggested by IEEE study. 
+AI developers can rely on frameworks and libraries to build high-quality neural networks. 
+From the perspective of the futuristic engineering world, this is the incontrovertible reason why Python deserves to be regarded as a high-level programming language.
+
+
+Q2. Why is Python called a dynamically typed language?
+
+Ans=
+Python variable assignment is different from some of the popular languages like c, c++ and java.
+There is no declaration of a variable, just an assignment statement.
+
+Let us see why?
+When we declare a variable in C or alike languages, this sets aside an area of memory for holding values allowed by the data type of the variable.
+The memory allocated will be interpreted as the data type suggests. If it’s an integer variable the memory allocated will be read as an integer and so on. 
+When we assign or initialize it with some value, that value will get stored at that memory location. 
+At compile time, initial value or assigned value will be checked. So we cannot mix types. 
+Example: initializing a string value to an int variable is not allowed and the program will not compile.
+
+But Python is a dynamically typed language. It doesn’t know about the type of the variable until the code is run. So declaration is of no use. 
+What it does is, It stores that value at some memory location and then binds that variable name to that memory container. 
+And makes the contents of the container accessible through that variable name. So the data type does not matter. 
+As it will get to know the type of the value at run-time.
+
+
+Q3. List some pros and cons of Python programming language?
+Ans:
+Pros	                     Cons
+Large Community	           Slower than compiled languages
+Flexible and Extensible	   Security
+Extensive Libraries	       Work Environment
+Embeddable	               High memory consumption
+
+
+
+Q4. In what all domains can we use Python?
+Ans
+Employing python allows the user to work on multiple domains ranging from Data Science, 
+Machine Learning, 
+Deep Learning,
+Artificial Intelligence,
+Scientific Computing Scripting, 
+Networking, 
+Game Development to Web Development
+
+
+
+Q5. What are variable and how can we declare them?
+Ans
+Variable are name given to the memory locaton so that it can be fetched easily
+Creating Variables. Python has no command for declaring a variable. ...
+Casting. If you want to specify the data type of a variable, this can be done with casting. ...
+Get the Type. ...
+Single or Double Quotes? ...
+Case-Sensitive.
+A variable is created the moment you first assign a value to it.
+
+Example
+x = 5
+y = "John"
+print(x)
+print(y)
+
+
+Q6. How can we take an input from the user in Python?
+Ans
+By using input() function we can take input from the user
+
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Ans
+The Default datatype of input() function is string
+
+
+
+Q8. What is type casting?
+Ans
+Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users. 
+In this article, we will see the various technique for typecasting. 
+There can be two types of Type Casting in Python – 
+Implicit Type Casting
+Explicit type casting
+
+
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Ans
+This function is generally used to separate a given string into several substrings. However, you can also use it for taking multiple inputs. 
+The function generally breaks the given input by the specified separator and in case the separator is not provided then any white space is considered 
+as a separator
+
+
+
+Q10. What are keywords?
+Ans
+Python keywords are special reserved words that have specific meanings and purposes and can't be used for anything but those specific purposes. 
+These keywords are always available—you'll never have to import them into your code. 
+Python keywords are different from Python's built-in functions and types.
+
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+Ans
+We cannot use a keyword as a variable name, function name, or any other identifier. 
+They are used to define the syntax and structure of the Python language. 
+All the keywords except True , False and None are in lowercase and they must be written as they are. The list of all the keywords is given below.
+
+
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans
+Indentation refers to the spaces at the beginning of a code line. Where in other programming languages the indentation in code is for readability only, 
+the indentation in Python is very important. Python uses indentation to indicate a block of code.
+
+
+
+Q13. How can we throw some output in Python?
+Ans
+By using print() function
+
+
+Q14. What are operators in Python?
+Ans
+In Python, operators are special symbols that designate that some sort of computation should be performed. 
+The values that an operator acts on are called operands. 
+Here is an example: >>> >>> a = 10 >>> b = 20 >>> a + b 30.
+
+
+
+Q15. What is difference between / and // operators?
+Ans
+/ operator gives decimal values in answer
+whereas // operator does not give decimal values after point
+
+
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+Ans
+print("iNueroniNueroniNueroniNueron")
+
+#or
+
+print('iNueron'*4)
+
+
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans
+num=int(input('Enter Number to check Even or Odd:'))
+if num%2==0:
+    print(num,'is Even Number')
+else:
+    print(num,'is odd Number')
+    
+    
+
+Q18. What are boolean operator?
+Ans
+The logical operators and, or and not are also referred to as boolean operators. While and as well as or operator needs two operands, 
+which may evaluate to true or false, not operator needs one operand evaluating to true or false. 
+Boolean and operator returns true if both operands return true
+
+
+
+Q19. What will the output of the following?
+```
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+```
+Ans
+print(1 or 0)
+
+print(0 and 0)
+
+print(True and False and True)
+
+print(1 or 0 or 0)
+
+
+
+Q20. What are conditional statements in Python?
+Ans
+A conditional statement as the name suggests itself, is used to handle conditions in your program. 
+These statements guide the program while making decisions based on the conditions encountered by the program.
+Python has 3 key Conditional Statements that you should know: if statement. if-else statement
+
+
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans
+If-elif-else statement is used in Python for decision-making i.e the program will evaluate test expression and will execute the remaining statements only
+if the given test expression turns out to be true. 
+This allows validation for multiple expressions
+
+
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+Ans
+age=int(input("Enter your age:"))
+if age>=18:
+    print('I can Vote')
+else:
+    print("I can't Vote")
+    
+    
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+Ans
+numbers = [12, 75, 150, 180, 145, 525, 50]
+sum=0
+for num in numbers:
+    if num%2==0:
+        sum=sum+num
+print("The Sum of Even Numbers is",sum)
+
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+Ans
+num1=int(input('Enter First Number:'))
+num2=int(input('Enter Second Number:'))
+num3=int(input('Enter Third Number:'))
+
+if num1>num2 and num1>num3:
+    print(num1,'is greater')
+elif num2>num1 and num2>num3:
+    print(num2,'is greater')
+else:
+    print(num3,'is greater')
+    
+    
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+Ans
+numbers = [12, 75, 150, 180, 145, 525, 50]
+a = []
+for i in numbers:
+    if i > 150:
+        if i > 500:
+            break
+        continue
+    if i % 5 == 0:
+        a.append(i)
+        
+print(a)
